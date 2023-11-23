@@ -1,0 +1,23 @@
+.PHONY: generate
+
+QUERIES_PATH := internal/outbound/postgres/queries/queries.sql
+
+## Generate sqlc models from SQL.
+generate/queries: $(QUERIES_PATH)
+
+$(QUERIES_PATH): docker/up/postgres
+	@echo "Generating sqlc models..."
+	@sqlc generate && echo "sqlc models generated."
+
+## Generate the development fixtures to be mounted into local containers.
+generate/data_mount_fixtures:
+	@scripts/generate_data_mount_fixtures.sh
+
+## Generate a new migration named using the MIGRATION_NAME env var.
+generate/migration:
+	migrate create -ext sql -dir internal/outbound/postgres/migrations ${MIGRATION_NAME}
+
+## Remove generated artifacts.
+generate/clean:
+	rm -rf internal/outbound/sqlite/sqlc
+	rm -rf ${REALWORLD_HOST_DATA_DIR}

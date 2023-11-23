@@ -1,0 +1,83 @@
+name: "CI"
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+
+      - uses: "actions/setup-go@v4"
+        with:
+          go-version-file: "go.mod"
+
+      - uses: "cardinalby/export-env-action@v2"
+        with:
+          envFile: ".env"
+
+      - name: "Test"
+        run: "make docker/test"
+
+      - name: "Upload coverage reports to Codecov"
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  lint:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+
+      - uses: "actions/setup-go@v4"
+        with:
+          go-version-file: "go.mod"
+          cache: false # conflicts with the golangci-lint cache
+
+      - name: "golangci-lint"
+        uses: "golangci/golangci-lint-action@v3"
+        with:
+          version: "v1.54"
+          args: "--timeout=3m"
+
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+
+      - uses: "actions/setup-go@v4"
+        with:
+          go-version-file: "go.mod"
+
+      - uses: "cardinalby/export-env-action@v2"
+        with:
+          envFile: ".env"
+
+      - name: "Docker build"
+        run: "make docker/build"
+
+  audit:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+
+      - uses: "actions/setup-go@v4"
+        with:
+          go-version-file: "go.mod"
+
+      - name: "Install govulncheck"
+        run: "go install golang.org/x/vuln/cmd/govulncheck@latest"
+
+      - name: "Audit"
+        run: "govulncheck ./..."
+
+  sqlc:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+
+      - uses: "sqlc-dev/setup-sqlc@v4"
+        with:
+          sqlc-version: "1.21.0"
+
+      - run: "sqlc diff"

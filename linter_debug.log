@@ -1,0 +1,412 @@
+go mod dir: context
+go mod dir: database/sql
+go mod dir: database/sql
+go mod dir: time
+go mod dir: context
+go mod dir: database/sql
+go mod dir: time
+go mod dir: errors
+go mod dir: fmt
+go mod dir: log
+go mod dir: net/http
+go mod dir: os
+go mod dir: time
+go mod dir: fmt
+go mod dir: strings
+go mod dir: time
+go mod dir: github.com/brianvoe/gofakeit/v6
+go mod dir: github.com/google/uuid
+go mod dir: fmt
+go mod dir: testing
+go mod dir: time
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: encoding/json
+go mod dir: errors
+go mod dir: fmt
+go mod dir: encoding/json
+go mod dir: fmt
+go mod dir: strconv
+go mod dir: testing
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: context
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/mock
+go mod dir: time
+go mod dir: crypto/rsa
+go mod dir: fmt
+go mod dir: os
+go mod dir: path/filepath
+go mod dir: time
+go mod dir: github.com/golang-jwt/jwt/v4
+go mod dir: github.com/kelseyhightower/envconfig
+go mod dir: crypto/rand
+go mod dir: crypto/rsa
+go mod dir: crypto/x509
+go mod dir: encoding/pem
+go mod dir: fmt
+go mod dir: os
+go mod dir: path/filepath
+go mod dir: strconv
+go mod dir: testing
+go mod dir: github.com/stretchr/testify/require
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/gofiber/fiber/v2/middleware/cors
+go mod dir: fmt
+go mod dir: io
+go mod dir: github.com/google/uuid
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/gofiber/fiber/v2/middleware/logger
+go mod dir: errors
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/gofiber/fiber/v2/middleware/requestid
+go mod dir: github.com/gofiber/fiber/v2/utils
+go mod dir: context
+go mod dir: net/http
+go mod dir: testing
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: bytes
+go mod dir: context
+go mod dir: fmt
+go mod dir: io
+go mod dir: net/http
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: context
+go mod dir: net/http
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/require
+go mod dir: context
+go mod dir: database/sql
+go mod dir: embed
+go mod dir: errors
+go mod dir: fmt
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/golang-migrate/migrate/v4
+go mod dir: github.com/golang-migrate/migrate/v4/database/postgres
+go mod dir: github.com/golang-migrate/migrate/v4/source/iofs
+go mod dir: github.com/golang-migrate/migrate/v4/source/iofs
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: context
+go mod dir: database/sql
+go mod dir: errors
+go mod dir: fmt
+go mod dir: strings
+go mod dir: time
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/lib/pq
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/google/uuid
+go mod dir: os
+go mod dir: strconv
+go mod dir: strings
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: context
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/stretchr/testify/mock
+go mod dir: context
+go mod dir: database/sql
+go mod dir: errors
+go mod dir: testing
+go mod dir: time
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/stretchr/testify/mock
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: errors
+go mod dir: fmt
+go mod dir: log
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/server
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: bytes
+go mod dir: crypto/rsa
+go mod dir: encoding/json
+go mod dir: fmt
+go mod dir: log
+go mod dir: net/http
+go mod dir: os
+go mod dir: time
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/api/v0
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/gofiber/fiber/v2/middleware/recover
+go mod dir: bytes
+go mod dir: context
+go mod dir: crypto/rand
+go mod dir: crypto/rsa
+go mod dir: errors
+go mod dir: io
+go mod dir: net/http
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: errors
+go mod dir: fmt
+go mod dir: strings
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/google/uuid
+go mod dir: fmt
+go mod dir: net/mail
+go mod dir: net/url
+go mod dir: regexp
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/google/uuid
+go mod dir: golang.org/x/crypto/bcrypt
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: context
+go mod dir: github.com/google/uuid
+go mod dir: math/rand
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/google/uuid
+go mod dir: github.com/brianvoe/gofakeit/v6
+go mod dir: github.com/stretchr/testify/require
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: context
+go mod dir: errors
+go mod dir: fmt
+go mod dir: github.com/google/uuid
+go mod dir: errors
+go mod dir: fmt
+go mod dir: math
+go mod dir: testing
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: errors
+go mod dir: fmt
+go mod dir: net/url
+go mod dir: strings
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: context
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/mock
+go mod dir: context
+go mod dir: errors
+go mod dir: testing
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: crypto/rsa
+go mod dir: errors
+go mod dir: fmt
+go mod dir: time
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/gofiber/contrib/jwt
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/golang-jwt/jwt/v5
+go mod dir: github.com/google/uuid
+go mod dir: errors
+go mod dir: fmt
+go mod dir: maps
+go mod dir: net/http
+go mod dir: slices
+go mod dir: strings
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: errors
+go mod dir: fmt
+go mod dir: slices
+go mod dir: strings
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: encoding/json
+go mod dir: errors
+go mod dir: fmt
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: context
+go mod dir: crypto/rand
+go mod dir: crypto/rsa
+go mod dir: encoding/json
+go mod dir: net/http
+go mod dir: testing
+go mod dir: time
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/golang-jwt/jwt/v5
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: bytes
+go mod dir: context
+go mod dir: encoding/json
+go mod dir: fmt
+go mod dir: io
+go mod dir: net/http
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/require
+go mod dir: bytes
+go mod dir: context
+go mod dir: encoding/json
+go mod dir: fmt
+go mod dir: io
+go mod dir: math
+go mod dir: net/http
+go mod dir: strings
+go mod dir: testing
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/gofiber/fiber/v2
+go mod dir: github.com/golang-jwt/jwt/v5
+go mod dir: github.com/google/uuid
+go mod dir: github.com/stretchr/testify/assert
+go mod dir: github.com/stretchr/testify/mock
+go mod dir: github.com/stretchr/testify/require
+
+
+
+
+
+
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/sqlc/db.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/sqlc/models.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/sqlc/queries.sql.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/cmd/healthcheck/main.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/pkg/etag/etag.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/pkg/etag/etag_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/pkg/option/option.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/pkg/option/option_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/config/config.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/config/config_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/testutil/config.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/testutil/doc.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/testutil/matchers.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/testutil/mocks.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/testutil/time_source.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/middleware/cors.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/middleware/logging.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/middleware/request_id.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/middleware/cors_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/middleware/logging_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/middleware/request_id_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/client.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/doc.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/user_repository.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/client_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/mocks_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/outbound/postgres/user_repository_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/cmd/server/main.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/server/server.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/server/server_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/auth.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/doc.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/json_error.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/middleware.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/users_handler.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/auth_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/middleware_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/inbound/rest/api/v0/users_handler_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/doc.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/errors.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/models.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/ports.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/random_generators.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/service.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/errors_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/models_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/ports_test.go
+Examining file: /Users/avagsargsyan/www/go/tests/realworld-go/internal/domain/user/service_test.go
+
+
+
+
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/api/v0
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres/sqlc
+go mod dir: github.com/angusgmorrison/realworld-go/internal/outbound/postgres
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/server
+go mod dir: github.com/angusgmorrison/realworld-go/internal/config
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/etag
+go mod dir: github.com/angusgmorrison/realworld-go/internal/inbound/rest/middleware
+go mod dir: github.com/angusgmorrison/realworld-go/internal/domain/user
+go mod dir: github.com/angusgmorrison/realworld-go/internal/testutil
+go mod dir: github.com/angusgmorrison/realworld-go/pkg/option
+
+

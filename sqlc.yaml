@@ -1,0 +1,12 @@
+version: "2"
+sql:
+  - schema: "internal/outbound/postgres/migrations"
+    queries: "internal/outbound/postgres/queries"
+    engine: "postgresql"
+    gen:
+      go:
+        out: "internal/outbound/postgres/sqlc"
+    database:
+      uri: ${REALWORLD_DATABASE_URL}
+    rules:
+      - sqlc/db-prepare
