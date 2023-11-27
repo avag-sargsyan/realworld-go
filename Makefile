@@ -5,8 +5,8 @@ COPY_TO := lint-plugins
 GOLANGCI_LINT_VERSION := v1.55.2 # Should match the version in go.mod file
 
 # Loads the plugin from the ~/.golangci-lint-plugins directory into the project to specify it in the .golangci.yml file
-.PHONY: load-plugin
-load-plugin:
+.PHONY: load-plugins
+load-plugins:
 	@mkdir -p $(COPY_TO)
 	@cp $(PLUGIN_DIR)/$(RESTRICTIMPORTS_NAME).so $(COPY_TO)/
 	@cp $(PLUGIN_DIR)/$(GOMODCHECK_NAME).so $(COPY_TO)/
