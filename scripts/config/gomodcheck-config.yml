@@ -1,0 +1,12 @@
+allowed-dep:
+  - github.com/brianvoe/gofakeit/v6
+  - github.com/gofiber/contrib/jwt
+  - github.com/gofiber/fiber/v2
+  - github.com/golang-jwt/jwt/v4
+  - github.com/golang-jwt/jwt/v5
+  - github.com/golang-migrate/migrate/v4
+  - github.com/google/uuid
+  - github.com/kelseyhightower/envconfig
+  - github.com/lib/pq
+  - github.com/stretchr/testify
+  - golang.org/x/crypto

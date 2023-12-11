@@ -6,39 +6,47 @@ run:
   tests: true
 
 linters-settings:
+  gomodcheck:
+    settings:
+      allowed-dep:
+        - github.com/brianvoe/gofakeit/v6
+        - github.com/gofiber/contrib/jwt
+        - github.com/gofiber/fiber/v2
+        - github.com/golang-jwt/jwt/v4
+        - github.com/golang-jwt/jwt/v5
 
-  custom:
-    restrictimports:
-      path: ./lint-plugins/restrictimports.so
-      description: "Verifies imports along modules to make sure that modules communicating only via aggregator"
-      settings:
-        prefix: github.com/angusgmorrison/realworld-go/
-        agg-module: internal/outbound
-        modules-depth-in-fs: 2
-        modules-to-check:
-          - internal/domain
-          - internal/config
-          - internal/inbound
-          - internal/testutil
-        allowed-pkg:
-          - user
-          - config
-
-    gomodcheck:
-      path: ./lint-plugins/gomodcheck.so
-      description: "Verifies dependencies in go.mod file against whitelisted ones"
-      settings:
-        allowed-dep:
-          - github.com/brianvoe/gofakeit/v6
-          - github.com/gofiber/contrib/jwt
-          - github.com/gofiber/fiber/v2
-          - github.com/golang-jwt/jwt/v4
-          - github.com/golang-jwt/jwt/v5
-          - github.com/golang-migrate/migrate/v4
-          - github.com/google/uuid
-          - github.com/kelseyhightower/envconfig
-          - github.com/lib/pq
-          - github.com/stretchr/testify
+#  custom:
+#    restrictimports:
+#      path: ./lint-plugins/restrictimports.so
+#      description: "Verifies imports along modules to make sure that modules communicating only via aggregator"
+#      settings:
+#        prefix: github.com/angusgmorrison/realworld-go/
+#        agg-module: internal/outbound
+#        modules-depth-in-fs: 2
+#        modules-to-check:
+#          - internal/domain
+#          - internal/config
+#          - internal/inbound
+#          - internal/testutil
+#        allowed-pkg:
+#          - user
+#          - config
+#
+#    gomodcheck:
+#      path: ./lint-plugins/gomodcheck.so
+#      description: "Verifies dependencies in go.mod file against whitelisted ones"
+#      settings:
+#        allowed-dep:
+#          - github.com/brianvoe/gofakeit/v6
+#          - github.com/gofiber/contrib/jwt
+#          - github.com/gofiber/fiber/v2
+#          - github.com/golang-jwt/jwt/v4
+#          - github.com/golang-jwt/jwt/v5
+#          - github.com/golang-migrate/migrate/v4
+#          - github.com/google/uuid
+#          - github.com/kelseyhightower/envconfig
+#          - github.com/lib/pq
+#          - github.com/stretchr/testify
 #          - golang.org/x/crypto
 
 issues:
@@ -48,6 +56,6 @@ issues:
 
 linters:
   enable:
-    - restrictimports
+#    - restrictimports
     - gomodcheck
   fast: true

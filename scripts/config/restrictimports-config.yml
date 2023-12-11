@@ -1,0 +1,11 @@
+prefix: github.com/angusgmorrison/realworld-go/
+root_dir: internal
+modules:
+  - domain
+  - config
+  - inbound
+  - testutil
+aggregator: aggregators
+allowed_packages:
+  - user
+  - config
