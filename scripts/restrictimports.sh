@@ -22,8 +22,8 @@ fi
 
 check_imports() {
     local file=$1
-    local current_module=$2
     local inside_import_block=0
+    local current_module
     local import_path
 
     while IFS= read -r line; do
@@ -42,6 +42,10 @@ check_imports() {
 
             # trim for correct comparison
             import_path="${import_path//[[:blank:]]/}"
+
+            # need to derive current_module from file path, as passing it as a parameter is not reliable
+            inter_path="${file#$search_path/}"
+            current_module="${inter_path%%/*}"
 
             if [[ "$import_path" == "$prefix"* ]]; then
                 for module in "${modules[@]}"; do
@@ -83,7 +87,7 @@ for module in "${modules[@]}"; do
     echo "Checking module: $module"
     while IFS= read -r file; do
         if ! grep -q "$generated_marker" "$file"; then
-            check_imports "$file" "$module"
+            check_imports "$file"
         fi
     done < <(find "$search_path/$module" -type f -name "*.go")
 done
