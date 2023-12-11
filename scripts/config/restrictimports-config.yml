@@ -3,10 +3,8 @@ root_dir: internal
 modules:
   - domain
   - config
-  - inbound
   - testutil
   - outbound
-aggregator: domain
+aggregator: aggregator
 allowed_packages:
-  - user
-  - config
+  - handlers

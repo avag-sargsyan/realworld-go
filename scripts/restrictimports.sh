@@ -11,7 +11,6 @@ aggregator=$(yq e '.aggregator' "$config_file")
 allowed_packages=($(yq e '.allowed_packages[]' "$config_file"))
 
 prefix="${prefix%/}"
-echo "prefix: $prefix"
 found=0
 generated_marker="Code generated" # TODO: maybe check for file name instead?
 path_prefix="$prefix"
@@ -25,6 +24,7 @@ check_imports() {
     local file=$1
     local current_module=$2
     local inside_import_block=0
+    local import_path
 
     while IFS= read -r line; do
         if [[ $line =~ ^import[[:space:]]+\( ]]; then

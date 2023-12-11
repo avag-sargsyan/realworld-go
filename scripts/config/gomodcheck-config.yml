@@ -9,4 +9,4 @@ allowed-dep:
   - github.com/kelseyhightower/envconfig
   - github.com/lib/pq
   - github.com/stretchr/testify
-  - golang.org/x/crypto
+#  - golang.org/x/crypto
