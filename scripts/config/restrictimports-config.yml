@@ -5,7 +5,8 @@ modules:
   - config
   - inbound
   - testutil
-aggregator: aggregators
+  - outbound
+aggregator: domain
 allowed_packages:
   - user
   - config

@@ -10,6 +10,8 @@ modules=($(yq e '.modules[]' "$config_file"))
 aggregator=$(yq e '.aggregator' "$config_file")
 allowed_packages=($(yq e '.allowed_packages[]' "$config_file"))
 
+prefix="${prefix%/}"
+echo "prefix: $prefix"
 found=0
 generated_marker="Code generated" # TODO: maybe check for file name instead?
 path_prefix="$prefix"
@@ -44,11 +46,11 @@ check_imports() {
             if [[ "$import_path" == "$prefix"* ]]; then
                 for module in "${modules[@]}"; do
                     # do not verify self imports
-                    if [[ $module == $current_module ]]; then
+                    if [[ $module == "$current_module" ]]; then
                         continue
                     fi
 
-                    if [[ $aggregator == $current_module ]]; then
+                    if [[ $aggregator == "$current_module" ]]; then
                         # additional check for aggregator
                         if [[ "$import_path" == "$path_prefix/$module"* ]]; then
                             local allowed=0

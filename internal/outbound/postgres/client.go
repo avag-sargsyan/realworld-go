@@ -6,6 +6,7 @@ import (
 	"embed"
 	"errors"
 	"fmt"
+	"github.com/angusgmorrison/realworld-go/internal/inbound/rest/server"
 
 	"github.com/angusgmorrison/realworld-go/internal/config"
 
@@ -21,6 +22,7 @@ const migrationsPath = "migrations"
 
 //go:embed migrations/*.sql
 var migrations embed.FS
+var jwt server.Config
 
 // queries describes all the queries that can be run against the database. It
 // mirrors the generated sqlc code, allowing database errors to be mocked.
